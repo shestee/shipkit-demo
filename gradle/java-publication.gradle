@@ -21,7 +21,7 @@ publishing { //https://docs.gradle.org/current/userguide/publishing_maven.html
             pom {
                 name = tasks.jar.archiveBaseName
                 description = "Demo project showcasing automated publications with Shipkit Gradle plugins"
-                url = "https://github.com/shipkit/shipkit-demo"
+                url = "https://github.com/shestee/shipkit-demo"
                 licenses {
                     license {
                         name = 'MIT'
