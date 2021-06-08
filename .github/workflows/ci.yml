@@ -42,10 +42,10 @@ jobs:
         # Release job, only for pushes to the main development branch
         if: github.event_name == 'push'
           && github.ref == 'refs/heads/master'
-          && github.repository == 'shipkit/shipkit-demo'
+          && github.repository == 'shestee/shipkit-demo'
           && !contains(toJSON(github.event.commits.*.message), '[skip release]')
 
-        run: ./gradlew githubRelease publishToSonatype closeAndReleaseStagingRepository --scan
+        run: ./gradlew githubRelease
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
           SONATYPE_USER: ${{secrets.SONATYPE_USER}}
