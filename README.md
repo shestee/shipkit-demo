@@ -7,6 +7,8 @@
      alt="Shipkit Plugins"/>
 </a>
 
+### Dummy update 1 
+
 # Shipkit demo
 
 This is a demo project that showcases release automation with Shipkit plugins.
