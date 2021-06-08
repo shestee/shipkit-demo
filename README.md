@@ -7,7 +7,7 @@
      alt="Shipkit Plugins"/>
 </a>
 
-### Dummy update 1 
+### Dummy update 2
 
 # Shipkit demo
 
