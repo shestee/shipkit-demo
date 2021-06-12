@@ -42,7 +42,7 @@ jobs:
       - name: 4. Perform release
         # Release job, only for pushes to the main development branch
         if: github.event_name == 'push'
-          && github.ref == ('refs/heads/master' || startsWith(github.ref, 'refs/tags/'))
+          && (github.ref == 'refs/heads/master' || startsWith(github.ref, 'refs/tags/'))
           && github.repository == 'shestee/shipkit-demo'
           && !contains(toJSON(github.event.commits.*.message), '[skip release]')
 
