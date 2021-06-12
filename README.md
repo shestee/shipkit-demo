@@ -6,7 +6,7 @@
 <img src="https://raw.githubusercontent.com/shipkit/shipkit-resources/main/images/Shipkit-logo.png" width="240"
      alt="Shipkit Plugins"/>
 </a>
-Update 
+Update 5
 # Shipkit demo
 
 This is a demo project that showcases release automation with Shipkit plugins.
